@@ -29,6 +29,10 @@ client.on('messageCreate', (message) => {
     message.reply('hello');
   }
 
+  if(message.content === 'heyhey'){
+    message.reply('heyhey monica');
+  }
+
 });
 
 client.login(process.env.TOKEN);
